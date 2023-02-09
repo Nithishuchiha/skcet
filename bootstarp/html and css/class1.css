@@ -1,0 +1,53 @@
+*{
+    padding:0px;
+    margin:0px;
+    }
+    nav{
+        background-color:aliceblue;
+        display:flex;
+        justify-content:space-between;
+    }
+    .nav ul{
+        list-style:none;
+        margin-right:6px;
+        display:flex;
+    }
+    .nav h3{
+        color:red;
+    }
+    .nav li{
+        
+    margin:10px;
+   }
+   .nav1{
+    background-color:blueviolet
+   }
+   .layot{
+    background-color:blueviolet;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:10vh 20vh 20vh 40vh 10vh;
+    grid-template-areas: "a a a"
+    "b b b"
+    "c c c "
+    "d d d"
+    "e e e";
+   }
+
+   .head{
+grid-area:a;
+   }
+   .sec1{
+grid-area:b;
+   }
+.main{
+  grid-area:d;
+
+}
+.sec2{
+grid-area:c;
+}
+.foot{
+grid-area:e;
+}
+   

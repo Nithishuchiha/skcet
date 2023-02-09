@@ -1,0 +1,7 @@
+body {
+    background-image: url('./81d9bec9-306d-4c7f-b5b8-d0538666574b.jpg'),url('./81d9bec9-306d-4c7f-b5b8-d0538666574b.jpg'),url('./81d9bec9-306d-4c7f-b5b8-d0538666574b.jpg'),url('./81d9bec9-306d-4c7f-b5b8-d0538666574b.jpg');
+    background-position:top right,top left,bottom right,bottom left;
+    height:100vh;
+    width:100%;
+
+}

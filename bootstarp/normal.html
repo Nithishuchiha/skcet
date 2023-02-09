@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dai</title>
+</head>
+<body>
+    <script>
+        function temp()
+        {
+          var name1=Dai.getElementById("id").value;
+          var key='5488d9b4417c533a5f17a00b4097cbde';
+          var url='https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}${city}}&appid=${key}';
+          fetch(url)
+        }
+          
+        }
+    </script>
+    <input type="text" class="city" id="city">
+     <button onclick="temp()">search</button>
+</body>
+</html>
