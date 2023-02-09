@@ -1,1 +1,1 @@
-alert("This is alert");
+alert("This is alert"); vanakam da mapla
